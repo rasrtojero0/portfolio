@@ -1,0 +1,487 @@
+
+
+@media screen and (min-width: 360px){
+    body{
+        background-color: rgb(143, 245, 219)
+    }
+ .navPrincipal{
+    display: none;
+ }
+.navResponsive{
+    display: flex;
+    background-color: rgb(2, 77, 58);
+    width: 100%;
+    height: 40px;
+}
+.ghlogo, .llogo ,.iglogo{
+    margin: 5px;
+    width: 30px;
+    height: 30px;
+}
+
+.info{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+   }
+   .info img{
+    
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    margin-top: 20px;
+   }
+   
+
+    .info-titulo {
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .info-subtitulo{
+        font-size: 14px;
+       text-align: center;
+       padding-left: 15px;
+       padding-right: 15px
+  
+    }
+    .divisorSkills{
+        font-size: 1.5em;
+        color: #FFF;
+        background-color:rgb(2, 77, 58) ;
+     
+        height: 40px;
+        text-align: center;
+        padding-bottom: 1em;
+    }
+    .skills{
+        justify-content: space-around;
+        align-items: center;
+        
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    
+    .skills img{
+        margin-top: 2em;
+        width: 65px;
+        height: 65px;
+    }
+    
+    .divisorFormacion, .divisorExperiencia{
+        width: 100%;
+        font-size: 1.5em;
+        color: #FFF;
+        background-color:rgb(2, 77, 58) ;
+        height: 40px;
+        text-align: center;
+        padding-bottom: 1em;
+    }
+    
+    .contenedorLogo{
+        
+        background-color: #FFF;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .containerCarousel{
+        display: flex;
+        background-color: rgb(143, 245, 219);
+    }
+    .carousel{
+       min-height: 280px;
+        width: 300px;
+        height: 200px;
+    }
+    .carousel-item img{
+        width: 250px;
+        height: 180px;
+        border-radius: 40px;
+    }
+    
+    ul{
+        text-decoration: none;
+        text-align: center;
+        font-size: 1em;
+    }
+
+    .contenedorExperiencias{
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        
+    }
+    
+    .insignias{
+        display: flex;
+        justify-content: space-around;
+    
+    }
+    .insignias img{
+        width: 100px;
+        height: 100px;
+        opacity: .3;
+    }
+    
+    .decodificador, .ahorcado, .calculador{
+        display: flex;
+        justify-content:center;
+        margin-left: 40px;
+        margin-top:  40px;
+    }
+    .decodificador img, .ahorcado img{
+        border-radius: 40px;
+        width: 250px;
+        height: 175px;
+        border:2px solid rgb(2, 77, 58);
+    
+    }
+    .decodificador p, .ahorcado p{
+        color: rgb(3, 2, 0);
+        font-size: 1em;
+        font-style: bold;
+    }
+    .tituloLi{
+        color: rgb(0, 0, 0);
+        font-style: italic;
+        font-weight: bold;
+    }
+    
+    
+    .calculador img{
+        border-radius: 40px;
+        width: 250px;
+        height: 175px;
+        border:2px solid rgb(2, 77, 58);
+    
+    }
+    
+    .form{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    text-align: center;
+    }
+    
+    .contact-subtext, .contact-title{
+        font-size: 1.3em;
+        text-align: center;
+    }
+    
+.form{
+    display: flex;
+    margin-left: auto;
+}
+    .btn_contacto{
+        background-color: rgb(2, 77, 58);
+        color: #FFF;
+        width: 150px;
+        height: 40px;
+        border-radius: 5px;
+        border: none;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .contato__botao:hover{
+        background-color:rgb(143, 245, 219);
+        color: rgb(2, 77, 58);
+        border: 2px solid rgb(2, 77, 58);
+    }
+    
+    .contato-input::placeholder{
+    color: rgb(2, 77, 58);
+    opacity: .5;
+    }
+    .contato-textarea::placeholder{
+        color: rgb(2, 77, 58);
+        opacity: .5;
+    }
+    
+    .footer{
+        text-align: center;
+        opacity: .8;
+    }
+    .descripcionApp , .utilidadapp{
+      
+        font-size: 15px;
+        
+    }
+    .rodape p {
+        font-size:small ;
+    }
+    .contact, .contato-input, .mensaje,.contact-text form,.btn-contact, .contato-textarea{
+        width: 90%;
+    }
+} 
+
+
+
+
+@media screen and (min-width: 800px){
+    body{
+        background-color: rgb(143, 245, 219)
+    }
+    .navResponsive{
+        display: none;
+    }
+
+    .navPrincipal{
+        display: flex;
+        background-color: rgb(2, 77, 58);
+        align-content: center;
+        justify-content: center;
+        
+    }
+    .ghlogo, .iglogo, .llogo{
+        padding-top: 5px;
+        width: 40px ;
+        height: 40px;
+   
+   
+    }
+
+    .info img{
+        width: 180px;
+        height: 180px;
+        border-radius: 100px;
+    }
+
+    .info-titulo {
+        font-size: 26px;
+        text-align: center;
+    }
+
+    .info-subtitulo{
+        font-size: 22px;
+    } 
+
+    .skills{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    .carousel{
+        
+        min-height: 400px;
+        min-width: 400px;
+        width:800px;
+        height: 400px;
+    }
+    .carousel-item img{
+
+        width: 300px;
+        height: 250px;
+        border-radius: 40px;
+    }
+}
+
+@media screen and (min-width: 1000px){
+
+    .navResponsive{
+        display: none;
+    }
+    body{
+        background-color: rgb(143, 245, 219)
+    }
+    
+    .navPrincipal{
+        background-color: rgb(2, 77, 58);
+        font-size: 2em;
+       
+    }
+    .navPrincipal-titulo{
+        margin-left: .5em;
+    }
+    
+    .info {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        flex-direction: column;
+        align-items: center;
+    }
+    .info img{
+        margin-top: 2em;
+        width: 15em;
+        height: 15em;
+        border-radius: 200px;
+        transition: all .5s;
+    }
+    .info img:hover{
+        box-shadow: 0 0 10px #FFF;
+        transform: scale(.99);
+    }
+    
+    .info-subtitulo{
+        font-size: 2em;
+    }
+    .divisorSkills{
+        font-size: 2em;
+        color: #FFF;
+        background-color:rgb(2, 77, 58) ;
+        height: 40px;
+        text-align: center;
+        padding-bottom: 1em;
+    }
+    
+    
+    .skills{
+        flex-direction: row;
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+        align-items: center;
+        height: 400px;
+    }
+    
+    .skills img{
+        margin-top: 2em;
+        width: 65px;
+        height: 65px;
+    }
+    
+    .divisorFormacion, .divisorExperiencia{
+        font-size: 2em;
+        color: #FFF;
+        background-color:rgb(2, 77, 58) ;
+        height: 40px;
+        text-align: center;
+        padding-bottom: 1em;
+    }
+    
+    .contenedorLogo{
+        
+        background-color: #FFF;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .containerCarousel{
+        display: flex;
+        background-color: rgb(143, 245, 219);
+    }
+    .carousel{
+        
+        min-height: 600px;
+        min-width: 400px;
+        width:800px;
+        height: 600px;
+    }
+    .carousel-item img{
+
+        width: 500px;
+        height: 350px;
+        border-radius: 40px;
+    }
+    
+    ul{
+        text-decoration: none;
+        text-align: center;
+        font-size: 1em;
+    }
+    
+    .insignias{
+        display: flex;
+        justify-content: space-around;
+    
+    }
+    .insignias img{
+        width: 200px;
+        height: 200px;
+        opacity: .3;
+    }
+    
+    .decodificador, .ahorcado, .calculador{
+        display: flex;
+        justify-content:center;
+        margin-left: 40px;
+        margin-top:  40px;
+    }
+    .decodificador img, .ahorcado img{
+        border-radius: 40px;
+        width: 500px;
+        height: 350px;
+        border:2px solid rgb(2, 77, 58);
+    
+    }
+    .decodificador p, .ahorcado p{
+        color: rgb(3, 2, 0);
+        font-size: 1.2em;
+        font-style: bold;
+    }
+    .tituloLi{
+        color: rgb(0, 0, 0);
+        font-style: italic;
+        font-weight: bold;
+    }
+    
+    
+    .calculador img{
+        border-radius: 40px;
+        width: 500px;
+        height: 350px;
+        border:2px solid rgb(2, 77, 58);
+    
+    }
+    
+    .contact{
+    text-align: center;
+    }
+    
+    .contact-subtext, .contact-title{
+        font-size: 1.3em;
+    }
+    
+    .contato-input{
+        display: block;
+        width: 100%;
+    }
+    .form{
+       margin-left: auto;
+       margin-right: auto;
+        display: flex;
+        flex-direction: column;
+        
+    }
+    
+    .btn_contacto{
+        margin-left: 50%;
+        background-color: rgb(2, 77, 58);
+        color: #FFF;
+        width: 150px;
+        height: 40px;
+        border-radius: 5px;
+        border: none;
+    }
+    
+    .btn_contacto:hover{
+        background-color:rgb(143, 245, 219);
+        color: rgb(2, 77, 58);
+        border: 2px solid rgb(2, 77, 58);
+    }
+    
+    .contato-input::placeholder{
+    color: rgb(2, 77, 58);
+    opacity: .5;
+    }
+    .contato-textarea::placeholder{
+        color: rgb(2, 77, 58);
+        opacity: .5;
+    }
+    #mensaje{
+        border: none;
+    }
+    
+
+ 
+    
+    .footer{
+        display: flex;
+        justify-content: center;
+        opacity: .8;
+    }
+}    
