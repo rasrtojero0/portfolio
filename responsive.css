@@ -1,6 +1,6 @@
 
 
-@media screen and (min-width: 360px){
+@media screen and (min-width: 0px){
     body{
         background-color: rgb(143, 245, 219)
     }
@@ -295,6 +295,10 @@
     }
     .navPrincipal-titulo{
         margin-left: .5em;
+    }
+    .info-titulo {
+        font-size: 40px;
+        text-align: center;
     }
     
     .info {
